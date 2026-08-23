@@ -24,23 +24,12 @@ type User struct {
 
 func Main() {
 
-	// membuat instance struct
-	u := User{
-		Name:   "Aris",
-		Age:    27,
-		Active: true,
-	}
+	number := 10
 
-	// cara aksesnya
-	fmt.Println("Nama :", u.Name)
-	fmt.Println("Umur :", u.Age)
-	fmt.Println("Status :", u.Active)
+	pointer := &number
 
-	// update field struct
-	// u.Age = 80
-	fmt.Println("Umur Setelah Update :", u.Age)
-
-	u.Greet()
+	fmt.Println(pointer)
+	fmt.Println(*pointer)
 
 }
 

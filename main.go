@@ -1,15 +1,15 @@
 package main
 
-import (
-	// "belajar-golang-bersama/day6"
-	"belajar-golang-bersama/day7"
-	// import "belajar-golang-bersama/day5"
-	// import "belajar-golang-bersama/day4"
-	// import file day1,day2 dsb.
-	// import "belajar-golang-bersama/day3"
-	// "belajar-golang-bersama/day1"
-	// "belajar-golang-bersama/day2"
-)
+import "belajar-golang-bersama/day8"
+
+// "belajar-golang-bersama/day7"
+// "belajar-golang-bersama/day6"
+// import "belajar-golang-bersama/day5"
+// import "belajar-golang-bersama/day4"
+// import file day1,day2 dsb.
+// import "belajar-golang-bersama/day3"
+// "belajar-golang-bersama/day1"
+// "belajar-golang-bersama/day2"
 
 // buat function disini
 func main() {
@@ -18,6 +18,7 @@ func main() {
 	// day3.Main()
 	// day5.Main()
 	// day6.Main()
-	day7.Main()
+	// day7.Main()
+	day8.Main()
 
 }
