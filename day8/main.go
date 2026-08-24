@@ -1,6 +1,8 @@
 package day8
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func Main() {
 
