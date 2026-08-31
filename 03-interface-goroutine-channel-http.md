@@ -15,7 +15,7 @@ Interface mendefinisikan behavior.
 
 ```go
 type Payment interface {
-    Pay(amount int)
+    Pay(amount int)v
 }
 ```
 
