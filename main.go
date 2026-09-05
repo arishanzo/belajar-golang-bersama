@@ -1,6 +1,6 @@
 package main
 
-import "belajar-golang-bersama/day13"
+import "belajar-golang-bersama/day14"
 
 // "belajar-golang-bersama/day7"
 // "belajar-golang-bersama/day6"
@@ -23,5 +23,6 @@ func main() {
 	// day9.Main()
 	// day11.Main()
 	// day12.Main()
-	day13.Main()
+	// day13.Main()
+	day14.Main()
 }
