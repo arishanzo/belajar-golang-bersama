@@ -10,5 +10,5 @@ type Order struct {
 
 	// foreignKey
 	User  User
-	Items []OrderItem `gorm:"foreignKey:OrderID` // oRDER punya banyak data OrderItem atau relasi ke OrderItem
+	Items []OrderItem `gorm:"foreignKey:OrderID"` // oRDER punya banyak data OrderItem atau relasi ke OrderItem
 }

@@ -21,7 +21,7 @@ REST API digunakan agar aplikasi dapat berkomunikasi melalui HTTP.
 | PUT | Mengubah data |
 | PATCH | Update sebagian data |
 | DELETE | Menghapus data |
-
+v
 Contoh endpoint:
 
 ```text
