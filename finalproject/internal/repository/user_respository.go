@@ -1,7 +1,7 @@
 package repository
 
 import (
-	"finalproject/model"
+	"finalproject/internal/model"
 
 	"gorm.io/gorm"
 )
@@ -12,7 +12,7 @@ type UserRepository interface {
 
 	// buat kontrak method untuk mencari Name dan Email
 	FindByName(name string) (model.User, error)
-	// findByEmail(email string) (model.User, error)
+	FindByEmail(email string) (model.User, error)
 }
 
 // interface userrepository ini untuk mendefinisikan aturan yang harus diikuti oleh implementasi Repository

@@ -2,7 +2,7 @@ package main
 
 import (
 	"finalproject/config"
-	"finalproject/model"
+	"finalproject/internal/model"
 	"fmt"
 )
 
