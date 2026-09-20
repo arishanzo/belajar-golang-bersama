@@ -27,9 +27,9 @@ func main() {
 
 	//  Todo : Routing API disini
 	mux.HandleFunc("/register", authHandler.Register)
-	mux.HandleFunc("/Login", authHandler.Login)
+	mux.HandleFunc("/login", authHandler.Login)
 
-	fmt.Println("Server Berjalan di htpp://localhost:5000")
+	fmt.Println("Server Berjalan di http://localhost:5000")
 	http.ListenAndServe(":5000", mux)
 
 }

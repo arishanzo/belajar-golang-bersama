@@ -11,7 +11,7 @@ import (
 // buat interface AuthService = kontrak method yang harus ada
 type AuthService interface {
 	Register(name, email, password string) (model.User, error)
-	Login(name, password string) (model.User, error)
+	Login(email, password string) (model.User, error)
 }
 
 // buat struct authService untuk menyimpan repository
